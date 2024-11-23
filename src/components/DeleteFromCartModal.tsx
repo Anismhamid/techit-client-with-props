@@ -1,20 +1,19 @@
 import {FunctionComponent} from "react";
-import Button from "react-bootstrap/esm/Button";
-import Modal from "react-bootstrap/esm/Modal";
-import {deleteteProduct} from "../services/ProductsServices";
+import {Button, Modal} from "react-bootstrap";
+import {deleteteProductFromCart} from "../services/carteServices";
 
-interface DeleteModalProps {
-	show: boolean;
+interface DeleteFromCartModalProps {
 	onHide: Function;
+	show: boolean;
 	refresh: Function;
 	productId: string;
 }
 
-const DeleteModal: FunctionComponent<DeleteModalProps> = ({
+const DeleteFromCartModal: FunctionComponent<DeleteFromCartModalProps> = ({
 	show,
 	onHide,
-	refresh,
 	productId,
+	refresh,
 }) => {
 	return (
 		<Modal
@@ -30,13 +29,15 @@ const DeleteModal: FunctionComponent<DeleteModalProps> = ({
 				</Modal.Title>
 			</Modal.Header>
 			<Modal.Body>
-				<p>are you sure you want to delete?</p>
+				<p>are you sure you want to delete this item?</p>
 			</Modal.Body>
 			<Modal.Footer>
 				<Button
-					onClick={() =>
-						deleteteProduct(productId)
-							.then(() => {
+					onClick={ () =>
+						deleteteProductFromCart(productId)
+							.then((res) => {
+								// console.log(productId, res.data[0].products[0]);
+
 								refresh();
 								onHide();
 							})
@@ -54,4 +55,4 @@ const DeleteModal: FunctionComponent<DeleteModalProps> = ({
 	);
 };
 
-export default DeleteModal;
+export default DeleteFromCartModal;

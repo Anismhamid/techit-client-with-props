@@ -3,6 +3,7 @@ import {FunctionComponent} from "react";
 import * as yup from "yup";
 import {Product} from "../intrerfaces/Product";
 import {addProduct} from "../services/ProductsServices";
+import {cloude} from "../fontAwesome/fontAwesome";
 
 interface AddProductProps {
 	onHide: Function;
@@ -22,7 +23,7 @@ const AddProduct: FunctionComponent<AddProductProps> = ({onHide, refresh}) => {
 			name: yup.string().required().min(2),
 			category: yup.string().required().min(2),
 			description: yup.string().required().min(2),
-			image: yup.string().required().url(),
+			image: yup.string().required("imageUrl EX:https://...").url(),
 			price: yup.number().required().moreThan(0),
 		}),
 		onSubmit: (values) => {
@@ -107,7 +108,7 @@ const AddProduct: FunctionComponent<AddProductProps> = ({onHide, refresh}) => {
 							type='text'
 							className='form-control'
 							id='image'
-							placeholder='image'
+							placeholder='https://...'
 							onChange={formik.handleChange}
 							onBlur={formik.handleBlur}
 							value={formik.values.image}
@@ -117,12 +118,11 @@ const AddProduct: FunctionComponent<AddProductProps> = ({onHide, refresh}) => {
 							<p className='text-danger'>{formik.errors.image}</p>
 						)}
 					</div>
-					<button
-						className='btn btn-success mt-3 w-100'
-						type='submit'
-						disabled={!formik.dirty || !formik.isValid}
-					>
-						Add
+					<button className='learn-more w-100'>
+						<span className='circle' aria-hidden='true'>
+							<span className='fs-3 fw-bold text-info'>{cloude}</span>
+						</span>
+						<span className='button-text'>ADD</span>
 					</button>
 				</form>
 			</div>

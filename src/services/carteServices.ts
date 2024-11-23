@@ -1,5 +1,6 @@
 import axios from "axios";
 import {getProductById} from "./ProductsServices";
+import {errorMSG, successMSG} from "../components/Toastify";
 
 const api: string = `${process.env.REACT_APP_API}/carts`;
 
@@ -20,12 +21,11 @@ export async function getProductFromCarts() {
 		}
 		let res = await Promise.all(promises);
 		let products = res.map((item: any) => item.data);
-		return products
+		return products;
 	} catch (error) {
 		console.log(error);
 	}
 }
-
 
 export async function addProductToCart(productId: string) {
 	try {
@@ -34,7 +34,7 @@ export async function addProductToCart(productId: string) {
 
 		if (userCarts.data.length > 0) {
 			let userCart = userCarts.data[0];
-			userCart.products.push(productId); // Add only the product ID
+			userCart.products.push(productId);
 
 			return axios.patch(`${api}/${userCart.id}`, {
 				products: userCart.products,
@@ -44,5 +44,34 @@ export async function addProductToCart(productId: string) {
 		}
 	} catch (error) {
 		console.log(error);
+	}
+}
+
+export async function deleteteProductFromCart(productId: string) {
+	const userId: string = JSON.parse(localStorage.getItem("userId") as string);
+
+	try {
+		const userCarts: any = await axios.get(`${api}?userId=${userId}&&active=true`);
+
+		if (userCarts.data && userCarts.data.length > 0) {
+			const cart = userCarts.data[0];
+			const cartId = cart.id;
+			const productIndex = cart.products.indexOf(productId);
+
+			if (productIndex > -1) {
+				cart.products.splice(productIndex, 1);
+
+				await axios.put(`${api}/${cartId}`, {products: cart.products});
+
+				successMSG(`Product removed successfully from your cart`);
+			} else {
+				errorMSG("Product not found in your cart");
+			}
+		} else {
+			errorMSG("No active cart found for you");
+		}
+	} catch (error) {
+		console.error("Error deleting product from cart:", error);
+		errorMSG("Failed to remove product from cart");
 	}
 }

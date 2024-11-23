@@ -1,16 +1,16 @@
-import {FunctionComponent, useEffect, useState} from "react";
+import {FunctionComponent, useEffect, useRef, useState} from "react";
 import Navbar from "./Navbar";
 import {Product} from "../intrerfaces/Product";
-import {getAllProducs} from "../services/ProductsServices";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faTrash} from "@fortawesome/free-solid-svg-icons";
+import {getAllProducs, productLike} from "../services/ProductsServices";
 import {getUserById} from "../services/userService";
 import AddProductModal from "./AddProductModal";
 import UpdateProductModal from "./UpdateProductModal";
 import DeleteProductModal from "./DeleteProductModal";
 import {addProductToCart} from "../services/carteServices";
 import Loading from "./Loading";
-import {shopping} from "../fontAwesome/fontAwesome";
+import {cloude, edit, shopping, trash} from "../fontAwesome/fontAwesome";
+import {successMSG} from "./Toastify";
+import "../../src/button.css";
 
 interface ProductsProps {}
 
@@ -24,7 +24,6 @@ const Products: FunctionComponent<ProductsProps> = () => {
 	const [productId, setProductId] = useState<string>("");
 	const [loading, setLoading] = useState<boolean>(true);
 
-	const trash = <FontAwesomeIcon icon={faTrash}></FontAwesomeIcon>;
 	useEffect(() => {
 		if (localStorage.getItem("userId") !== null) {
 			getUserById()
@@ -40,7 +39,7 @@ const Products: FunctionComponent<ProductsProps> = () => {
 		getAllProducs()
 			.then((res) => setProducts(res.data))
 			.catch((err) => console.log(err));
-	}, [productsChanged]);
+	}, []);
 
 	let handleAddProduct = () => {
 		// open the product modal
@@ -63,14 +62,18 @@ const Products: FunctionComponent<ProductsProps> = () => {
 			<div className='container py-5'>
 				<div className='row'>
 					<button
-						className='btn btn-success my-2 w-25 text-center m-auto'
 						onClick={() => {
 							handleAddProduct();
 						}}
+						className='learn-more w-100'
 					>
-						<span className="fs-3 fw-bold">ADD NEW PRODUCT</span>
+						<span className='circle' aria-hidden='true'>
+							<span className='fs-3 fw-bold text-info mx-5'>{cloude}</span>
+							<span className='icon arrow'></span>
+						</span>
+						<span className='button-text'>ADD NEW PRODUCT </span>
 					</button>
-					{products.length ? (
+					{products.length && !loading ? (
 						products.map(
 							(product: Product) =>
 								product.available && (
@@ -87,6 +90,7 @@ const Products: FunctionComponent<ProductsProps> = () => {
 											className='card-img-top'
 											alt={product.name}
 										/>
+
 										<div className='card-body'>
 											<h5 className='card-title'>{product.name}</h5>
 											<p className='card-text'>
@@ -97,9 +101,15 @@ const Products: FunctionComponent<ProductsProps> = () => {
 											</p>
 											<button
 												onClick={() =>
-													addProductToCart(product.id as string)
+													addProductToCart(
+														product.id as string,
+													).then(() =>
+														successMSG(
+															`${product.name} added to cart, ${product.price}`,
+														),
+													)
 												}
-												className='btn btn-primary'
+												className='btn btn-primary mb-2'
 											>
 												{shopping} Buy
 											</button>
@@ -112,9 +122,9 @@ const Products: FunctionComponent<ProductsProps> = () => {
 																product.id as string,
 															);
 														}}
-														className='btn btn-warning'
+														className='btn btn-warning me-4'
 													>
-														Edit
+														{edit}
 													</button>
 													<button
 														onClick={() => {

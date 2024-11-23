@@ -33,7 +33,7 @@ const UpdateProduct: FunctionComponent<UpdateProductProps> = ({
 		} catch (error) {
 			console.log(error);
 		}
-	}, [product]);
+	}, [productId]);
 
 	const formik: FormikValues = useFormik<Product>({
 		initialValues: {

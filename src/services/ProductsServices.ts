@@ -15,10 +15,15 @@ export function addProduct(product: Product) {
 	return axios.post(api, product);
 }
 export function updateProduct(product: Product) {
-	return axios.put(`${api}/${product.id}`,product);
+	return axios.put(`${api}/${product.id}`, product);
 }
+
 export function deleteteProduct(id: string) {
 	return axios.patch(`${api}/${id}`, {available: false});
+}
+
+export function productLike(id: string, likeCount: number) {
+	return axios.patch(`${api}/${id}`, {likeCount: likeCount + 1}); 
 }
 
 // export async function chechIsAdmin() {

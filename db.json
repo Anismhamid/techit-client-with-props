@@ -1,362 +1,390 @@
 {
-	"users": [
-		{
-			"id": "2de9",
-			"name": "anis Mhamid",
-			"email": "anes@gmail.com",
-			"password": "a12345",
-			"isAdmin": true
-		},
-		{
-			"id": "dd93",
-			"name": "anis 2",
-			"email": "anes2@gmail.com",
-			"password": "a12345",
-			"isAdmin": false
-		}
-	],
-	"products": [
-		{
-			"id": "1125",
-			"name": "Yoga Mat",
-			"price": 25,
-			"category": "Sports Equipment",
-			"image": "https://i.ebayimg.com/images/g/MhAAAOSwkttkXJQJ/s-l1600.webp",
-			"description": "A high-density, non-slip yoga mat that provides excellent cushioning for your joints during exercises.",
-			"quantity": 18,
-			"available": true
-		},
-		{
-			"id": "21125",
-			"name": "Resistance Bands Set",
-			"price": 18,
-			"category": "Sports Equipment",
-			"image": "https://m.media-amazon.com/images/I/71ez5aKudmL._AC_SX425_.jpg",
-			"description": "A set of 5 resistance bands with varying levels of tension for strength training, flexibility, and rehabilitation.",
-			"quantity": 10,
-			"available": true
-		},
-		{
-			"id": "31125",
-			"name": "Dumbbell Set (5-25 lbs)",
-			"price": 50,
-			"category": "Sports Equipment",
-			"image": "https://m.media-amazon.com/images/I/71bxRATPpIL._AC_SX425_.jpg",
-			"description": "A set of adjustable dumbbells ranging from 5 to 25 lbs. Perfect for home workouts and strength training.",
-			"quantity": 10,
-			"available": true
-		},
-		{
-			"id": "41125",
-			"name": "Jump Rope (Speed Rope)",
-			"price": 12,
-			"category": "Sports Equipment",
-			"image": "https://m.media-amazon.com/images/I/91kmJItvxVL._AC_SX425_.jpg",
-			"description": "A high-speed jump rope designed for fast, efficient cardio workouts. Adjustable length for all heights.",
-			"quantity": 10,
-			"available": true
-		},
-		{
-			"id": "51125",
-			"name": "Bluetooth Speaker",
-			"price": 49.99,
-			"category": "Electronics",
-			"image": "https://i.rtings.com/assets/pages/bKL4AtS9/best-portable-bluetooth-speakers-20231026-medium.jpg?format=auto",
-			"description": "Portable Bluetooth speaker with rich sound and long battery life.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "61125",
-			"name": "Noise-Cancelling Headphones",
-			"price": 1738.99,
-			"category": "Electronics",
-			"image": "https://ikfaudio.com/cdn/shop/files/Solo-Pro-BR.jpg?v=1725094814&width=1200",
-			"description": "Headphones with advanced noise-canceling technology and superior sound quality.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "71125",
-			"name": "Fitness Tracker",
-			"price": 79.99,
-			"category": "Electronics",
-			"image": "https://m.media-amazon.com/images/I/71MBwiI4mxL._AC_SL1500_.jpg",
-			"description": "Track your steps, heart rate, and workouts with this stylish fitness tracker.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "81125",
-			"name": "Digital Camera",
-			"price": 399.99,
-			"category": "Electronics",
-			"image": "https://m.media-amazon.com/images/I/71x06rvOIEL._AC_SL1500_.jpg",
-			"description": "Capture high-quality photos with this easy-to-use digital camera.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "91125",
-			"name": "Electric Kettle",
-			"price": 29.99,
-			"category": "Home Appliances",
-			"image": "https://m.media-amazon.com/images/I/611WXU3wOHL._AC_SL1500_.jpg",
-			"description": "Quickly boil water with this electric kettle, perfect for tea or coffee.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "11250",
-			"name": "Coffee Maker",
-			"price": 79.99,
-			"category": "Home Appliances",
-			"image": "https://m.media-amazon.com/images/I/71+GzFFP7oL._AC_SL1500_.jpg",
-			"description": "Brew your perfect cup of coffee with this easy-to-use coffee maker.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "11251",
-			"name": "Smart Home Lightbulb",
-			"price": 19.99,
-			"category": "Home Electronics",
-			"image": "https://m.media-amazon.com/images/I/61WOa4NtM8L._AC_SL1500_.jpg",
-			"description": "Control the lighting in your home remotely with this smart bulb.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "11252",
-			"name": "Robot Vacuum Cleaner",
-			"price": 299.99,
-			"category": "Home Appliances",
-			"image": "https://m.media-amazon.com/images/I/81l8WOosOJL._AC_SL1500_.jpg",
-			"description": "Let the robot vacuum clean your floors with advanced mapping and cleaning technology.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "11253",
-			"name": "Electric Toothbrush",
-			"price": 39.99,
-			"category": "Health & Beauty",
-			"image": "https://m.media-amazon.com/images/I/81bV1GyFWPL._SL1500_.jpg",
-			"description": "Achieve cleaner teeth and healthier gums with this electric toothbrush.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "11254",
-			"name": "Air Purifier",
-			"price": 129.99,
-			"category": "Home Appliances",
-			"image": "https://s.alicdn.com/@sc04/kf/H592fed7b68364b979b0cecc7611747f8Z.jpg_720x720q50.jpg",
-			"description": "Keep your home fresh and clean with this efficient air purifier.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "11255",
-			"name": "Gaming Console",
-			"price": 299.99,
-			"category": "Electronics",
-			"image": "https://ae-pic-a1.aliexpress-media.com/kf/S904a234e79bd42818624332ec9f0b97eh/X80-7-tft800-480-hd-3000.jpg_.webp",
-			"description": "Enjoy the latest video games with this next-gen gaming console.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "11256",
-			"name": "HD Television",
-			"price": 799.99,
-			"category": "Electronics",
-			"image": "https://elementelectronics.com/sites/default/files/styles/product_main_square/public/product/images/2023-06/E500AC50C_FrontA.webp?itok=ORid22AM",
-			"description": "Enjoy crisp and vibrant picture quality with this 4K HD television.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "11257",
-			"name": "Smart Thermostat",
-			"price": 129.99,
-			"category": "Home Electronics",
-			"image": "https://www.dandbclimatecare.com/wp-content/webp-express/webp-images/uploads/2021/12/person-using-a-smart-phone-application-cooling-down-the-room-with-a-picture-id1246911038.jpg.webp",
-			"description": "Control the temperature of your home remotely with this smart thermostat.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "11258",
-			"name": "Electric Grill",
-			"price": 89.99,
-			"category": "Home Appliances",
-			"image": "https://i.ebayimg.com/images/g/qPYAAOSw1O1kOYJI/s-l1600.webp",
-			"description": "Grill your favorite foods indoors with this electric grill.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "11259",
-			"name": "Portable Power Bank",
-			"price": 29.99,
-			"category": "Electronics",
-			"image": "https://m.media-amazon.com/images/I/61sLYlOjOzL._AC_SL1000_.jpg",
-			"description": "Keep your devices charged on the go with this portable power bank.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "20",
-			"name": "Table Lamp",
-			"price": 19.99,
-			"category": "Home Decor",
-			"image": "https://m.media-amazon.com/images/I/71nuxauPMsL._AC_SL1500_.jpg",
-			"description": "Add a warm ambiance to your room with this stylish table lamp.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "21",
-			"name": "Desk Chair",
-			"price": 129.99,
-			"category": "Furniture",
-			"image": "https://bokefurniture.com/wp-content/uploads/2024/06/Ergonomic-office-chair-with-mesh-back.jpg",
-			"description": "Comfortable ergonomic chair for your home office or workspace.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "22",
-			"name": "LED Desk Light",
-			"price": 39.99,
-			"category": "Home Decor",
-			"image": "https://m.media-amazon.com/images/I/71J49U5FEjL._AC_SL1500_.jpg",
-			"description": "Brighten your workspace with this energy-efficient LED desk light.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "23",
-			"name": "Fridge",
-			"price": 899.99,
-			"category": "Home Appliances",
-			"image": "https://ae-pic-a1.aliexpress-media.com/kf/S0aa758e5b0f04e8ab80af99081bb88e9k/7-4-CU-Refrigerator-with-Freezer-Apartment-Size-Refrigerator-Top-Freezer-2-Door-Fridge-with-Adjustable.jpg_.webp",
-			"description": "Keep your food fresh with this spacious and energy-efficient fridge.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "24",
-			"name": "Blender",
-			"price": 449.99,
-			"category": "Kitchen Appliances",
-			"image": "https://assets.bonappetit.com/photos/63d3193b7d3b2da7813c5319/16:9/w_960,c_limit/VitaMIx.jpg",
-			"description": "Make smoothies, soups, and more with this powerful blender.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "25",
-			"name": "Toaster",
-			"price": 19.99,
-			"category": "Kitchen Appliances",
-			"image": "https://ae-pic-a1.aliexpress-media.com/kf/S35e56b92169c414e8cbb6996dd428d34F/2-Slices-Automatic-Fast-Heating-Bread-Toaster-750W-Stainless-Steel-Electric-Toaster-Breakfast-Machine-for-Sandwich.jpg_.webp",
-			"description": "Perfectly toasted bread every time with this sleek toaster.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "26",
-			"name": "Washing Machine",
-			"price": 499.99,
-			"category": "Home Appliances",
-			"image": "https://static.independent.co.uk/2024/07/09/09/best-washing-machines-review-indybest-2024.jpg?quality=75&width=1368&crop=3%3A2%2Csmart&auto=webp",
-			"description": "Efficient washing machine that saves time and energy.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "27",
-			"name": "Couch",
-			"price": 799.99,
-			"category": "Furniture",
-			"image": "https://www.myjapanesehome.com/cdn/shop/collections/couch.jpg?v=1553018167&width=535",
-			"description": "Comfortable couch to relax and unwind with family and friends.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "28",
-			"name": "Bookshelf",
-			"price": 129.99,
-			"category": "Furniture",
-			"image": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2015/2/25/0/Harmony-Weihs_Reading-Corner-Library_4.jpg.rend.hgtvcom.616.616.85.suffix/1424904318182.webp",
-			"description": "Stylish bookshelf to organize your books and decor.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "29",
-			"name": "Wall Art",
-			"price": 59.99,
-			"category": "Home Decor",
-			"image": "https://content.app-sources.com/s/40460189946594834/uploads/Blog_Images/Creative_Wall_Decor_Ideas_to_Elevate_Your_Living_Space-1485316.jpg?format=webp",
-			"description": "Add personality to your walls with this beautiful piece of wall art.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "30",
-			"name": "Outdoor Grill",
-			"price": 599.99,
-			"category": "Outdoor Equipment",
-			"image": "https://people.com/thmb/A1Rv5jJnBRJt01SJGUa_hnV8GUg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(1999x0:2001x2):format(webp)/peo-product-monument-grills-4-burner-propane-rkilgore-85-1-2-e302ab34058448109d0472a733e669c2.jpeg",
-			"description": "Grill your favorite meals outdoors with this high-quality grill.",
-			"quantity": 1,
-			"available": true
-		},
-		{
-			"id": "31",
-			"name": "Foam Roller",
-			"price": 20,
-			"category": "Sports Equipment",
-			"image": "https://m.media-amazon.com/images/I/618wCfgdnhL._AC_SX425_.jpg",
-			"description": "A high-density foam roller for muscle recovery and improved flexibility.",
-			"quantity": 10,
-			"available": true
-		},
-		{
-			"id": "4",
-			"name": "Apple",
-			"price": 15,
-			"category": "Fantasy",
-			"description": "prepare the mmd",
-			"image": "https://www.google.com/search?q=harry+potter+book&tbm=isch&ved=2ahUKEwi2gsuO4aX6AhXrhM4BHQq7DSUQ2-cCegQIABAA&oq=harry+potter+book&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgQIABAeMgQIABAeOgQIIxAnOgQIABBDUPUBWOAJYPwKaABwAHgAgAGDAYgBhAaSAQMwLjaYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=cPIqY7aKFeuJur4Piva2qAI&bih=951&biw=962#imgrc=-7lakjotHtiE3M",
-			"available": false
-		},
-		{
-			"id": "4866",
-			"name": "Unitree Go2",
-			"category": "Robots",
-			"description": "Remote Control, Interactive Music, Voice control, APP Remote Control",
-			"image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf963545908914be29da3a33907729decd.jpg_80x80.jpg_.webp",
-			"price": 1693.62,
-			"available": true
-		}
-	],
-	"carts": [
-		{
-			"id": "3f66",
-			"userId": "2de9",
-			"products": ["4866", "41125", "11252", "11253"],
-			"active": true
-		},
-		{
-			"id": "50f7",
-			"userId": "dd93",
-			"products": ["1125"],
-			"active": true
-		}
-	]
+  "users": [
+    {
+      "id": "30a3",
+      "name": "anis Mhamid",
+      "email": "anes@gmail.com",
+      "password": "a12345",
+      "isAdmin": true
+    }
+  ],
+  "products": [
+    {
+      "id": "1125",
+      "name": "Yoga Mat",
+      "price": 25,
+      "category": "Sports Equipment",
+      "image": "https://i.ebayimg.com/images/g/MhAAAOSwkttkXJQJ/s-l1600.webp",
+      "description": "A high-density, non-slip yoga mat that provides excellent cushioning for your joints during exercises.",
+      "quantity": 18,
+      "available": true,
+      "likeCount": 1
+    },
+    {
+      "id": "21125",
+      "name": "Resistance Bands Set",
+      "price": 18,
+      "category": "Sports Equipment",
+      "image": "https://m.media-amazon.com/images/I/71ez5aKudmL._AC_SX425_.jpg",
+      "description": "A set of 5 resistance bands with varying levels of tension for strength training, flexibility, and rehabilitation.",
+      "quantity": 10,
+      "available": false
+    },
+    {
+      "id": "31125",
+      "name": "Dumbbell Set (5-25 lbs)",
+      "price": 50,
+      "category": "Sports Equipment",
+      "image": "https://m.media-amazon.com/images/I/71bxRATPpIL._AC_SX425_.jpg",
+      "description": "A set of adjustable dumbbells ranging from 5 to 25 lbs. Perfect for home workouts and strength training.",
+      "quantity": 10,
+      "available": true,
+      "likeCount": 1
+    },
+    {
+      "id": "41125",
+      "name": "Jump Rope (Speed Rope)",
+      "price": 12,
+      "category": "Sports Equipment",
+      "image": "https://m.media-amazon.com/images/I/91kmJItvxVL._AC_SX425_.jpg",
+      "description": "A high-speed jump rope designed for fast, efficient cardio workouts. Adjustable length for all heights.",
+      "quantity": 10,
+      "available": true,
+      "likeCount": null
+    },
+    {
+      "id": "51125",
+      "name": "Bluetooth Speaker",
+      "price": 49.99,
+      "category": "Electronics",
+      "image": "https://i.rtings.com/assets/pages/bKL4AtS9/best-portable-bluetooth-speakers-20231026-medium.jpg?format=auto",
+      "description": "Portable Bluetooth speaker with rich sound and long battery life.",
+      "quantity": 1,
+      "available": false
+    },
+    {
+      "id": "61125",
+      "name": "Noise-Cancelling Headphones",
+      "price": 1738.99,
+      "category": "Electronics",
+      "image": "https://ikfaudio.com/cdn/shop/files/Solo-Pro-BR.jpg?v=1725094814&width=1200",
+      "description": "Headphones with advanced noise-canceling technology and superior sound quality.",
+      "quantity": 1,
+      "available": false
+    },
+    {
+      "id": "71125",
+      "name": "Fitness Tracker",
+      "price": 79.99,
+      "category": "Electronics",
+      "image": "https://m.media-amazon.com/images/I/71MBwiI4mxL._AC_SL1500_.jpg",
+      "description": "Track your steps, heart rate, and workouts with this stylish fitness tracker.",
+      "quantity": 1,
+      "available": true,
+      "likeCount": null
+    },
+    {
+      "id": "81125",
+      "name": "Digital Camera",
+      "price": 399.99,
+      "category": "Electronics",
+      "image": "https://m.media-amazon.com/images/I/71x06rvOIEL._AC_SL1500_.jpg",
+      "description": "Capture high-quality photos with this easy-to-use digital camera.",
+      "quantity": 1,
+      "available": true,
+      "likeCount": null
+    },
+    {
+      "id": "91125",
+      "name": "Electric Kettle",
+      "price": 29.99,
+      "category": "Home Appliances",
+      "image": "https://m.media-amazon.com/images/I/611WXU3wOHL._AC_SL1500_.jpg",
+      "description": "Quickly boil water with this electric kettle, perfect for tea or coffee.",
+      "quantity": 1,
+      "available": true,
+      "likeCount": null
+    },
+    {
+      "id": "11250",
+      "name": "Coffee Maker",
+      "price": 79.99,
+      "category": "Home Appliances",
+      "image": "https://m.media-amazon.com/images/I/71+GzFFP7oL._AC_SL1500_.jpg",
+      "description": "Brew your perfect cup of coffee with this easy-to-use coffee maker.",
+      "quantity": 1,
+      "available": true,
+      "likeCount": 3
+    },
+    {
+      "id": "11251",
+      "name": "Smart Home Lightbulb",
+      "price": 19.99,
+      "category": "Home Electronics",
+      "image": "https://m.media-amazon.com/images/I/61WOa4NtM8L._AC_SL1500_.jpg",
+      "description": "Control the lighting in your home remotely with this smart bulb.",
+      "quantity": 1,
+      "available": false
+    },
+    {
+      "id": "11252",
+      "name": "Robot Vacuum Cleaner",
+      "price": 299.99,
+      "category": "Home Appliances",
+      "image": "https://m.media-amazon.com/images/I/81l8WOosOJL._AC_SL1500_.jpg",
+      "description": "Let the robot vacuum clean your floors with advanced mapping and cleaning technology.",
+      "quantity": 1,
+      "available": true,
+      "likeCount": 4
+    },
+    {
+      "id": "11253",
+      "name": "Electric Toothbrush",
+      "price": 39.99,
+      "category": "Health & Beauty",
+      "image": "https://m.media-amazon.com/images/I/81bV1GyFWPL._SL1500_.jpg",
+      "description": "Achieve cleaner teeth and healthier gums with this electric toothbrush.",
+      "quantity": 1,
+      "available": true,
+      "likeCount": 4
+    },
+    {
+      "id": "11254",
+      "name": "Air Purifier",
+      "price": 129.99,
+      "category": "Home Appliances",
+      "image": "https://s.alicdn.com/@sc04/kf/H592fed7b68364b979b0cecc7611747f8Z.jpg_720x720q50.jpg",
+      "description": "Keep your home fresh and clean with this efficient air purifier.",
+      "quantity": 1,
+      "available": true,
+      "likeCount": 3
+    },
+    {
+      "id": "11255",
+      "name": "Gaming Console",
+      "price": 299.99,
+      "category": "Electronics",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S904a234e79bd42818624332ec9f0b97eh/X80-7-tft800-480-hd-3000.jpg_.webp",
+      "description": "Enjoy the latest video games with this next-gen gaming console.",
+      "quantity": 1,
+      "available": true,
+      "likeCount": 3
+    },
+    {
+      "id": "11256",
+      "name": "HD Television",
+      "price": 799.99,
+      "category": "Electronics",
+      "image": "https://elementelectronics.com/sites/default/files/styles/product_main_square/public/product/images/2023-06/E500AC50C_FrontA.webp?itok=ORid22AM",
+      "description": "Enjoy crisp and vibrant picture quality with this 4K HD television.",
+      "quantity": 1,
+      "available": true,
+      "likeCount": 3
+    },
+    {
+      "id": "11257",
+      "name": "Smart Thermostat",
+      "price": 129.99,
+      "category": "Home Electronics",
+      "image": "https://www.dandbclimatecare.com/wp-content/webp-express/webp-images/uploads/2021/12/person-using-a-smart-phone-application-cooling-down-the-room-with-a-picture-id1246911038.jpg.webp",
+      "description": "Control the temperature of your home remotely with this smart thermostat.",
+      "quantity": 1,
+      "available": true,
+      "likeCount": 1
+    },
+    {
+      "id": "11258",
+      "name": "Electric Grill",
+      "price": 89.99,
+      "category": "Home Appliances",
+      "image": "https://i.ebayimg.com/images/g/qPYAAOSw1O1kOYJI/s-l1600.webp",
+      "description": "Grill your favorite foods indoors with this electric grill.",
+      "quantity": 1,
+      "available": true,
+      "likeCount": 1
+    },
+    {
+      "id": "11259",
+      "name": "Portable Power Bank",
+      "price": 29.99,
+      "category": "Electronics",
+      "image": "https://m.media-amazon.com/images/I/61sLYlOjOzL._AC_SL1000_.jpg",
+      "description": "Keep your devices charged on the go with this portable power bank.",
+      "quantity": 1,
+      "available": true,
+      "likeCount": 1
+    },
+    {
+      "id": "20",
+      "name": "Table Lamp",
+      "price": 19.99,
+      "category": "Home Decor",
+      "image": "https://m.media-amazon.com/images/I/71nuxauPMsL._AC_SL1500_.jpg",
+      "description": "Add a warm ambiance to your room with this stylish table lamp.",
+      "quantity": 1,
+      "available": true,
+      "likeCount": 1
+    },
+    {
+      "id": "21",
+      "name": "Desk Chair",
+      "price": 129.99,
+      "category": "Furniture",
+      "image": "https://bokefurniture.com/wp-content/uploads/2024/06/Ergonomic-office-chair-with-mesh-back.jpg",
+      "description": "Comfortable ergonomic chair for your home office or workspace.",
+      "quantity": 1,
+      "available": true,
+      "likeCount": 2
+    },
+    {
+      "id": "22",
+      "name": "LED Desk Light",
+      "price": 39.99,
+      "category": "Home Decor",
+      "image": "https://m.media-amazon.com/images/I/71J49U5FEjL._AC_SL1500_.jpg",
+      "description": "Brighten your workspace with this energy-efficient LED desk light.",
+      "quantity": 1,
+      "available": true,
+      "likeCount": 1
+    },
+    {
+      "id": "23",
+      "name": "Fridge",
+      "price": 899.99,
+      "category": "Home Appliances",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0aa758e5b0f04e8ab80af99081bb88e9k/7-4-CU-Refrigerator-with-Freezer-Apartment-Size-Refrigerator-Top-Freezer-2-Door-Fridge-with-Adjustable.jpg_.webp",
+      "description": "Keep your food fresh with this spacious and energy-efficient fridge.",
+      "quantity": 1,
+      "available": true,
+      "likeCount": 1
+    },
+    {
+      "id": "24",
+      "name": "Blender",
+      "price": 449.99,
+      "category": "Kitchen Appliances",
+      "image": "https://assets.bonappetit.com/photos/63d3193b7d3b2da7813c5319/16:9/w_960,c_limit/VitaMIx.jpg",
+      "description": "Make smoothies, soups, and more with this powerful blender.",
+      "quantity": 1,
+      "available": true,
+      "likeCount": 1
+    },
+    {
+      "id": "25",
+      "name": "Toaster",
+      "price": 19.99,
+      "category": "Kitchen Appliances",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S35e56b92169c414e8cbb6996dd428d34F/2-Slices-Automatic-Fast-Heating-Bread-Toaster-750W-Stainless-Steel-Electric-Toaster-Breakfast-Machine-for-Sandwich.jpg_.webp",
+      "description": "Perfectly toasted bread every time with this sleek toaster.",
+      "quantity": 1,
+      "available": true,
+      "likeCount": 1
+    },
+    {
+      "id": "26",
+      "name": "Washing Machine",
+      "price": 499.99,
+      "category": "Home Appliances",
+      "image": "https://static.independent.co.uk/2024/07/09/09/best-washing-machines-review-indybest-2024.jpg?quality=75&width=1368&crop=3%3A2%2Csmart&auto=webp",
+      "description": "Efficient washing machine that saves time and energy.",
+      "quantity": 1,
+      "available": false
+    },
+    {
+      "id": "27",
+      "name": "Couch",
+      "price": 799.99,
+      "category": "Furniture",
+      "image": "https://www.myjapanesehome.com/cdn/shop/collections/couch.jpg?v=1553018167&width=535",
+      "description": "Comfortable couch to relax and unwind with family and friends.",
+      "quantity": 1,
+      "available": true,
+      "likeCount": 1
+    },
+    {
+      "id": "28",
+      "name": "Bookshelf",
+      "price": 129.99,
+      "category": "Furniture",
+      "image": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2015/2/25/0/Harmony-Weihs_Reading-Corner-Library_4.jpg.rend.hgtvcom.616.616.85.suffix/1424904318182.webp",
+      "description": "Stylish bookshelf to organize your books and decor.",
+      "quantity": 1,
+      "available": true,
+      "likeCount": 1
+    },
+    {
+      "id": "29",
+      "name": "Wall Art",
+      "price": 59.99,
+      "category": "Home Decor",
+      "image": "https://content.app-sources.com/s/40460189946594834/uploads/Blog_Images/Creative_Wall_Decor_Ideas_to_Elevate_Your_Living_Space-1485316.jpg?format=webp",
+      "description": "Add personality to your walls with this beautiful piece of wall art.",
+      "quantity": 1,
+      "available": false
+    },
+    {
+      "id": "30",
+      "name": "Outdoor Grill",
+      "price": 599.99,
+      "category": "Outdoor Equipment",
+      "image": "https://people.com/thmb/A1Rv5jJnBRJt01SJGUa_hnV8GUg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(1999x0:2001x2):format(webp)/peo-product-monument-grills-4-burner-propane-rkilgore-85-1-2-e302ab34058448109d0472a733e669c2.jpeg",
+      "description": "Grill your favorite meals outdoors with this high-quality grill.",
+      "quantity": 1,
+      "available": true,
+      "likeCount": 3
+    },
+    {
+      "id": "31",
+      "name": "Foam Roller",
+      "price": 20,
+      "category": "Sports Equipment",
+      "image": "https://m.media-amazon.com/images/I/618wCfgdnhL._AC_SX425_.jpg",
+      "description": "A high-density foam roller for muscle recovery and improved flexibility.",
+      "quantity": 10,
+      "available": false
+    },
+    {
+      "id": "4",
+      "name": "Apple",
+      "price": 15,
+      "category": "Fantasy",
+      "description": "prepare the mmd",
+      "image": "https://www.google.com/search?q=harry+potter+book&tbm=isch&ved=2ahUKEwi2gsuO4aX6AhXrhM4BHQq7DSUQ2-cCegQIABAA&oq=harry+potter+book&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgQIABAeMgQIABAeOgQIIxAnOgQIABBDUPUBWOAJYPwKaABwAHgAgAGDAYgBhAaSAQMwLjaYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=cPIqY7aKFeuJur4Piva2qAI&bih=951&biw=962#imgrc=-7lakjotHtiE3M",
+      "available": false
+    },
+    {
+      "id": "4866",
+      "name": "Unitree Go2",
+      "category": "Robots",
+      "description": "Remote Control, Interactive Music, Voice control, APP Remote Control",
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf963545908914be29da3a33907729decd.jpg_80x80.jpg_.webp",
+      "price": 1693.62,
+      "available": false
+    },
+    {
+      "name": "ddf",
+      "category": "aaa",
+      "description": "dddddd",
+      "image": "https://www.arabiantourpackages.com/assets/images/tours/gallery/img-world-dubai-tickets-3.jpeg",
+      "price": 456,
+      "id": "e43a",
+      "available": false
+    }
+  ],
+  "carts": [
+    {
+      "products": [
+        "1125",
+        "11250",
+        "11254",
+        "11256",
+        "23",
+        "24",
+        "21",
+        "22",
+        "23"
+      ],
+      "id": "fa79"
+    }
+  ]
 }

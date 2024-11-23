@@ -7,4 +7,5 @@ export interface Product {
 	image: string;
 	quantity?: string;
 	available?: boolean;
+	likeCount?: number;
 }

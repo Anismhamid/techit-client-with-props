@@ -33,7 +33,7 @@ const Navbar: FunctionComponent<NavbarProps> = () => {
 							<NavLink
 								className='nav-link'
 								aria-current='page'
-								to='/product'
+								to='/products'
 							>
 								Product
 							</NavLink>
